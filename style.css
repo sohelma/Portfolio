@@ -1,0 +1,257 @@
+*{padding: 0;
+ margin: 0;
+ scroll-behavior: smooth;
+}
+body{font-family: Arial, Helvetica, sans-serif;}
+.first_section{
+    background-image:url(1.png),url(img/DSC04185.JPG);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: -5px;
+    padding: 10px;
+   background-attachment: fixed;
+}
+.logo{
+width: 20%;
+float: left;
+text-align: right;
+padding: 15px;
+
+}
+.logo h1{color:blue}
+.menu{
+  
+    width: 40%;
+    float: right;
+    padding: 15px;
+   
+}
+.menu ul{ text-align: left;}
+.menu ul li{display:inline-block;
+padding: 10px 0px;}
+.menu ul li a{color: blue;
+    font-size: 20px;
+    padding: 9px 13px;
+    text-decoration: none;
+    font-size: 21px;
+}
+.menu ul li a:hover{color:white;
+border-bottom: 2px solid white;}
+.content{
+    clear: both;
+width: 28%;
+margin-top: 519px;
+color: white;
+margin-left: 453px;
+padding: 27px;
+text-align: center;
+border-radius: 22px;
+box-shadow: 0px 0 20px white;
+margin: 0 augo;
+} 
+ .content h2{font-size: 20px;
+    font-family:arial;
+    margin-bottom: 15px;
+}
+ .content h4{font-size:20px;
+ font-size:15px;
+ margin-bottom: 15px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.button{display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 60%;
+ justify-content: space-around;
+  
+}
+.contact{background: white;
+    color: black;
+    border: 3px solid purple;
+    border-radius: 7px;
+    padding: 2px;
+    text-decoration: none;
+}
+.about{background: white;
+        color: purple;
+        border: 3px solid purple;
+        border-radius: 7px;
+        padding: 2px;
+        text-decoration: none;}
+    .about:hover{animation: sohel 2s;}
+    /* .contact:hover{background:grey;} */
+    /* 2nd sec start */
+    .second_section{width: 82%;
+        margin: 0 auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-bottom: 30px;
+        margin-top: 80px;
+        border: 2px solid gray;
+        padding: 39px;
+        box-shadow: 0 0 28px #323435d1;
+        border-radius: 21px;
+        background: #bdbfc099;
+        line-height: 22px;
+}
+.second_section h2{font-size: 26px;
+    text-align: center;
+    border: 6px double white;
+    margin: 0 200px;
+    margin-bottom: 29px;
+    border-radius: 9px;
+    color: purple;
+    width: 47%;
+    margin: 0 auto;
+    padding: 5px;
+margin-top: -26px;
+}
+
+.second_section P{font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+/* 2nd sec end */
+.service_sec{
+    height: auto;  
+    margin: 0 auto;
+    width: 90%;
+}
+.service_sec h2{text-align: center;
+    color: purple;
+    margin-bottom: 15px;
+    border: 7px double white;
+    border-radius: 8px;
+    width: 43%;
+     margin: 0 auto;
+     font-size: 27px;
+}
+.box{
+    display: flex; 
+    justify-content: space-around;
+}
+.box1{background: rgba(240, 240, 240, 0.38);
+    padding: 20px;
+    box-shadow: 0 0 18px #0b0a0a;
+    width: 28%;
+    margin-top: 21px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.box1 h3{text-align: center;
+}
+.box1 p{text-align: justify;
+    line-height: 20px;}
+    /* 3rd sec/service sec end */
+.fourth_con{background:#2407f203;;
+    margin-top: 17px;}
+.fourth_con h2{text-align: center;
+font-size: 30px;
+    color: purple;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 6px double white;
+    border-radius: 8px;
+width: 38%;
+margin: 0 auto;
+}
+.con_box{
+    background-image: url(/img/DSC01342.JPG);
+background: #ffc0cb26;
+padding: 30px 35px;
+box-shadow: 0 0 16px white;
+width: 24%;
+height: 0 auto;
+margin: 0 auto;
+height: 90px;
+text-align: center;
+margin-top: 99px;
+border-radius: 17px;
+color:grey;
+color: white;
+}
+
+
+.con_box2{background:#ffc0cb26;
+padding:10px;
+box-shadow: 0 0 16px white;
+margin-right: 95px;
+width: 40%;
+border-radius: 17px;
+padding-top: 27px;
+}
+.con{display: flex;
+width:102%;
+justify-content: space-around;
+margin-top: 15px;
+background: #000000a8;
+width: 88%;
+margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+border: 2px solid gray;
+border-radius: 18px;
+box-shadow: 0 0 10px white;
+margin-top: 21px;
+margin-bottom: 21px;
+}
+
+
+input{    width: 70%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 15px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    font-family: arial;
+    font-size: 13px;
+    margin-left: 73px;
+}
+textarea{
+    width: 70%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 15px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    font-family: arial;
+    font-size: 13px;
+    margin-left: 73px
+}
+.copyright{text-align: center;
+    color: white;
+    background:black;
+    padding: 8px;
+    font-size: 15px;
+}
+/* animation */
+@keyframes sohel{
+
+    0%{background:linear-gradient(blue,white);}
+    100%{background:linear-gradient(white,yellow);}
+}
+.btn:hover{animation:btn 2s}
+@keyframes btn{
+
+    0%{background:radial-gradient(blue,white);}
+    100%{background:radial-gradient(white,yellow);
+    transform:skewX(12deg);}
+}
+.material-icons{
+    font-size: 74px;
+    margin-left: 125px;
+    color:blue
+}
